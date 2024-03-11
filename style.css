@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+#board {
+    grid-template-columns: 9.985vw 9.985vw 9.985vw 9.985vw 9.985vw 9.985vw 9.985vw 9.985vw 9.985vw 9.985vw;
+    grid-template-rows: 30.8vh 30.8vh;
+}
+
+.box {
+    width: 10vw;
+    height: 30.8vh;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.grid {
+    display: grid;
+}
+
+.que {
+    cursor: pointer;
+}
+
+.ans {
+    cursor: pointer;
+}
+
+.complete {
+    background-color: green;
+}
+
+h3 {
+    font-size: 0.8rem;
+}
+
+.hidden {
+    background-color: black;
+}
+
+.wrong {
+    background-color: red !important;
+}
